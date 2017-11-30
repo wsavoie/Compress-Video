@@ -1,0 +1,29 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\VLC.mp4\shell\Menu1]
+"MUIVerb"="Compress Video"
+"SubCommands"="NaNs;NaWs;WaWs;WaNs"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\NaNs]
+@="No audio or scaling"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\NaNs\command]
+@="compressXvid.bat \"%1\" 1 0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\NaWs]
+@="No audio and half-size scaling"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\NaWs\command]
+@="compressXvid.bat \"%1\" 1 1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\WaNs]
+@="Only Compress"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\WaNs\command]
+@="compressXvid.bat \"%1\" 0 0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\WaWs]
+@="half-size scaling"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\WaWs\command]
+@="compressXvid.bat \"%1\" 0 1"
