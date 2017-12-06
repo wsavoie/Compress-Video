@@ -1,2 +1,7 @@
 run compress.reg to create necessary registry files
-copy compressXvid.bat to C:\windows\system32
+
+then:
+copy compressXvid.bat to %systemroot%\system32
+
+OR
+run copyBatchToSysRoot.bat

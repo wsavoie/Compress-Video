@@ -1,0 +1,1 @@
+xcopy /y .\compressXvid.bat %systemroot%\system32
