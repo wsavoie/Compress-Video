@@ -4,6 +4,14 @@ Windows Registry Editor Version 5.00
 "MUIVerb"="Compress Video"
 "SubCommands"="NaNs;NaWs;WaWs;WaNs"
 
+[HKEY_CLASSES_ROOT\mplayerc64.mp4\shell\Menu1]
+"MUIVerb"="Compress Video"
+"SubCommands"="NaNs;NaWs;WaWs;WaNs"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.MP4\shell\Menu1]
+"MUIVerb"="Compress Video"
+"SubCommands"="NaNs;NaWs;WaWs;WaNs"
+
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\NaNs]
 @="No audio or scaling"
 
