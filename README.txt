@@ -1,7 +1,10 @@
-run compress.reg to create necessary registry files
+run install.bat to copy compressXvid to system directory and install all registry files
 
-then:
-copy compressXvid.bat to %systemroot%\system32
+to uninstall, run uninstall bat, it deletes the compressXvid from system root and removes all registry files
 
-OR
-run copyBatchToSysRoot.bat
+i've kept deprecated registry files for future reference for myself, but they are unnecessary
+
+HOW TO USE:
+after running install.bat, right click any video->"compress video"->choose option you want
+NOTE:
+For some reason you must speed up or slow down BEFORE compressing, it degrades video otherwise
