@@ -31,6 +31,6 @@ if "%3"=="1" SET SCALE=-vf "scale=iw*.5:ih*.5"
 
 
 echo on
-ffmpeg -i %NAME% %AUDIO% -vcodec libx264 %SCALE% -crf 20 %NAMENOEXT%OUT.avi"
+ffmpeg -i %NAME% %AUDIO% -vcodec libx264 %SCALE% -crf 20 "%NAMENOEXT%OUT.avi"
 
 
