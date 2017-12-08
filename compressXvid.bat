@@ -17,12 +17,12 @@ SET SPEED=
 
 if "%2"=="2" (
 echo on
-ffmpeg -i %NAME% -filter:v "setpts=0.5*PTS" -an %NAMENOEXT%OUT%EXT%
+ffmpeg -i %NAME% -filter:v "setpts=0.5*PTS" -an "%NAMENOEXT%OUT%EXT%"
 exit
 )
 if "%2"=="3" (
 echo on
-ffmpeg -i %NAME% -filter:v "setpts=2.0*PTS" -an %NAMENOEXT%OUT%EXT%
+ffmpeg -i %NAME% -filter:v "setpts=2.0*PTS" -an "%NAMENOEXT%OUT%EXT%"
 exit
 )
 
